@@ -18,9 +18,7 @@ Below is a 2D analog of hyperbolic space projected in a way that we could visual
 
 
 <img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/3844d843-6608-44f0-80ef-2454016ee2a4" />
-
-
-
+ 
 ### Coordinate Systems
 
 An alternative spatial coordinate system is also required. In hyperbolic space, a square can be made to have 72 degree corners, like in the image above. In this example of space, this is the only way to tile squares into a grid.
@@ -29,27 +27,21 @@ But how could a coordinate system exist in this space? If lets say we assumed a 
 
 
 <img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/a7ec6343-3b51-4f36-a93f-9b4edd1a003a" />
-
-
-
+ 
 So in hyperbolic space, what is now "horizontal" and "vertical"? What do we use as an "x-axis" and "y-axis" if these core concepts have broken down?
 
 And like mentioned before, parallel lines drift apart, meaning that any line as a reference axis is bound to change direction. See below, an example of the parallel walls of a square, where above and below, an infinite amount of space rapidly expands. 
 
 
 <img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/93043f30-f6ec-4730-99da-0c346f307b79" />
-
-
-
+ 
 The solution is instead to codify symmetries about an origin square defined by a Coxeter System, an abstract representation thats useful for understanding geometric structures and patterns.
 
 For example, the position of the green fish below would be defined as a reflection about the red line with respect to the red fish. We could call this reflection "A"
 
 
 <img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/46bd1946-a1a7-45fb-98d6-4ffed3015f09" />
-
-
-
+ 
 The coordinate system would, instead of adding distance along an x, y, or z axis, add consecutive reflections along face "A", "B", or "C", for example. Rather than reading (x: 32.0, y: 42.0, z: 0.0), we're reading "ABBCBA", which would represent a position requiring 6 reflections to get to.
 
 ## Update Vlogs
