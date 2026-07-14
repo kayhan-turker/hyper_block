@@ -1,4 +1,4 @@
-# Hyper Block
+# HyperBlock
 
 Welcome to the github page for HyperBlock! This is a development project that aims to create a 3D voxel based game that takes place in an alternative spacial structure/dimension, called hyperbolic space.
 
